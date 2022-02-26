@@ -11,8 +11,7 @@
 |  Python  |  3.9.1  |
 |  pip  |  21.2.4  |
 
-### [公式サイト](https://www.python.org/downloads/)からPythonをローカル環境にインストール
-<br>
+#### [公式サイト](https://www.python.org/downloads/)からPythonをローカル環境にインストール
 
 #### 仮想環境の導入
 `pip install virtualenv`
@@ -27,18 +26,20 @@
 
 #### 必要なライブラリのインストール
 
-`pip install tensorflow`
-`pip install matplotlib`
-`pip install glob`
-`pip install icrawler`
-`pip install cv2`
-
+```python 
+pip install tensorflow
+pip install matplotlib
+pip install glob
+pip install icrawler
+pip install cv2
+```
 
 ## 2. 画像収集
 
 - [flickr](https://www.flickr.com/photos/tags/imagenet/)等の写真共有サイトから探すか
 **image_collect.py**ファイルを編集して実行
 <br>
+
 `python image_collect.py`
 
 - 直接写真共有サイトで探すときは`animal`フォルダーを作成し、そこに画像を入れて置く
@@ -47,9 +48,11 @@
 
 
 ## 3. Adversarial Examplesの作成
-- **ad.py**ファイルをすると各画像ごとにフォルダーが作成され、その中にAE画像が入る
+- **ad.py**ファイル実行をすると各画像ごとにフォルダーが作成され、その中にAE画像が入る
 <br>
+
 `python ad.py`
+
 - ファイル名は`<摂動の大きさ><CNN入力時の出力ラベル>.jpg`で生成される
 
 ## 4. 圧縮センシング
@@ -57,10 +60,10 @@
 *MATLABでは**Image Processing Toolbox**を別途インストールする必要がある
 - ファイル名`はCS_<摂動の大きさ><CNN入力時の出力ラベル>.jpg`で生成される
 ## 5. 4のファイルをCNNに入力して比較
-
+`python cs
 ## 6. その他
-|  ファイル名  |  用途  |
+|  ファイル・フォルダ名  |  用途  |
 | ---- | ---- |
 |  t-test.py  |  テンソルの動作確認  |
 |  check_label.py  |  単体画像をCNNに入力した際のラベル確認用  |
-|  pip  |  21.2.4  |
+|  subfuntions  |  ori.mの参照ファイル群  |
