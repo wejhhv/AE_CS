@@ -38,9 +38,8 @@ pip install cv2
 
 - [flickr](https://www.flickr.com/photos/tags/imagenet/)等の写真共有サイトから探すか
 **image_collect.py**ファイルを編集して実行
-<br>
 
-`python image_collect.py`
+  `python image_collect.py`
 
 - 直接写真共有サイトで探すときは`animal`フォルダーを作成し、そこに画像を入れて置く
 
@@ -49,9 +48,8 @@ pip install cv2
 
 ## 3. Adversarial Examplesの作成
 - **ad.py**ファイル実行をすると各画像ごとにフォルダーが作成され、その中にAE画像が入る
-<br>
 
-`python ad.py`
+  `python ad.py`
 
 - ファイル名は`<摂動の大きさ><CNN入力時の出力ラベル>.jpg`で生成される
 
