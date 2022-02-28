@@ -66,4 +66,4 @@ pip install cv2
 |  t-test.py  |  テンソルの動作確認  |
 |  check_label.py  |  単体画像をCNNに入力した際のラベル確認用  |
 |  subfuntions  |  ori.mの参照ファイル群  |
-|　gaussian.py | ガウシアンフィルタ |
+|gaussian.py | ガウシアンフィルタ |
