@@ -48,7 +48,7 @@ pip install cv2
 
 
 ## 3. Adversarial Examplesの作成
-- **ad.py**ファイル実行をすると各画像ごとにフォルダーが作成され、その中にAE画像が入る
+- **ad.py**をファイル実行をすると各画像ごとにフォルダーが作成され、その中にAE画像が入る
 
   `python ad.py`
 
@@ -59,7 +59,8 @@ pip install cv2
 *MATLABでは**Image Processing Toolbox**を別途インストールする必要がある
 - ファイル名`はCS_<摂動の大きさ><CNN入力時の出力ラベル>.jpg`で生成される
 ## 5. 4のファイルをCNNに入力して比較
-  `python check_cs.py`
+  `python check_cs.py`で**check_cs.py**を実行
+  <br>
 フォルダーの画像ごとに正解数が表示されるようにしている
 ## 6. その他
 |  ファイル・フォルダ名  |  用途  |
